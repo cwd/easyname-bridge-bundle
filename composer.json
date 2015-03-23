@@ -1,0 +1,27 @@
+{
+  "name": "cwd/easyname-bridge-bundle",
+  "version": "0.9",
+  "description": "Simple symfony bridge for the easyname php-sdk",
+  "keywords": ["symfony", "bundle", "bridge"],
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ludwig Ruderstaller",
+      "email": "lr@cwd.at",
+      "homepage": "http://www.cwd.at"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "symfony/framework-bundle": ">2.3.0",
+    "symfony/symfony": "2.*",
+    "cwd/easyname-php-sdk": "dev"
+  },
+  "autoload": {
+    "psr-0": {
+      "Cwd\\EasynameBridgeBundle": ""
+    }
+  },
+  "target-dir": "Cwd/EasynameBridgeBundle"
+}
