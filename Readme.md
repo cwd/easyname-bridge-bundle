@@ -3,7 +3,7 @@ Easyname PHP SDK Bridge for Symfony >=2.3
 
 Install:
 ```
-composer require cwd/easyname-bridge-bundle dev
+composer require cwd/easyname-bridge-bundle @dev
 ```
 
 Config:
