@@ -1,6 +1,6 @@
 {
   "name": "cwd/easyname-bridge-bundle",
-  "version": "0.9",
+  "version": "1.0-dev",
   "description": "Simple symfony bridge for the easyname php-sdk",
   "keywords": ["symfony", "bundle", "bridge"],
   "type": "symfony-bundle",
@@ -23,5 +23,10 @@
       "Cwd\\EasynameBridgeBundle": ""
     }
   },
-  "target-dir": "Cwd/EasynameBridgeBundle"
+  "target-dir": "Cwd/EasynameBridgeBundle",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
 }
